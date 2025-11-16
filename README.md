@@ -74,56 +74,19 @@ backend/documentation.md
 
 ---
 
-# ▶️ Getting Started
+## 🖼️ Preview
 
-## 1️⃣ Clone the repository
+### 🏠 Home Page
+![Home](assets/home.png)
 
-```sh
-git clone https://github.com/zhengshenhao688/ecommerce-project-ts.git
-cd ecommerce-project-ts
-```
+### 🛒 Checkout Page
+![Checkout](assets/checkout.png)
 
----
+### 📦 Orders Page
+![Orders](assets/orders.png)
 
-# ▶️ Running the Backend
-
-```sh
-cd backend
-npm run dev
-```
-
-Backend will start at:
-
-```
-http://localhost:3000
-```
-
-### API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /products | Get all products |
-| GET | /products/:id | Get one product |
-| GET | /delivery-options | Shipping options |
-| POST | /cart | Submit cart |
-| GET | /orders | All orders |
-| GET | /orders/:id | Order details |
-
----
-
-# ▶️ Running the Frontend
-
-```sh
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs at:
-
-```
-http://localhost:5173
-```
+### 🚚 Tracking Page
+![Tracking](assets/tracking.png)
 
 ---
 
@@ -188,24 +151,57 @@ ecommerce-project-ts/
 
 ---
 
-# 🖼️ Screenshots 
+# ▶️ Getting Started
 
-```
-assets/
-  home.png
-  checkout.png
-  orders.png
-  tracking.png
-```
+## 1️⃣ Clone the repository
 
-Insert images like:
-
-```markdown
-![Home Page](assets/home.png)
+```sh
+git clone https://github.com/zhengshenhao688/ecommerce-project-ts.git
+cd ecommerce-project-ts
 ```
 
 ---
 
+# ▶️ Running the Backend
+
+```sh
+cd backend
+npm run dev
+```
+
+Backend will start at:
+
+```
+http://localhost:3000
+```
+
+### API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /products | Get all products |
+| GET | /products/:id | Get one product |
+| GET | /delivery-options | Shipping options |
+| POST | /cart | Submit cart |
+| GET | /orders | All orders |
+| GET | /orders/:id | Order details |
+
+---
+
+# ▶️ Running the Frontend
+
+```sh
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs at:
+
+```
+http://localhost:5173
+```
+---
 
 # 📄 Future Improvements
 
